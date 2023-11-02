@@ -95,7 +95,7 @@ text-align: center;
 }
 .second-page {
     background-size: cover;
-    background-image: url(/images/joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    background-color: #7f5539;
     height: auto;
     width: auto;
     padding-top: 2px;
@@ -137,7 +137,7 @@ text-align: center;
 }
 .second-page-title {
 text-shadow: 0px 2px 5px black;
-    color: #9c6644;
+    color: #F5F5DC;
     text-align: center;
 }
 .product-title {
