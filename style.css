@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Autour+One&family=Gabarito:wght@900&family=Happy+Monkey&family=Orbitron:wght@600&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400&display=swap');
+
+  
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    box-sizing: border-box;
+    margin: 0;
+    background-repeat: no-repeat;
+    font-family: 'poppins';
+    padding: 0;
+}
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+.first-page {
+    max-width: 100%;
+    min-width: 100px;
+    background-image: url(images/nathan-dumlao-KixfBEdyp64-unsplash.jpg);
+    background-size: cover;
+    height: 650px;
+}
+h4{
+    min-width: 10px;
+    width: auto;
+    font-size: 13px;
+    font-weight: light;
+    font-family: 'poppins';
+
+}
+.header {
+    font-family: 'poppins';
+    justify-content: center;
+    gap: 15px;
+    display: flex;
+    backdrop-filter: blur(5px);
+    background-color: rgba(3, 3, 3, 0.01);
+    min-width: 320px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+    
+h4{
+    font-weight: 500;
+}
+.tagline {
+    
+    color: #F5F5DC;
+    font-weight: lighter;
+}
+.title{
+    font-size: 50px;
+    color: #F5F5DC;
+}
+.intro-wrapper {
+border: 1px solid transparent;
+width: 50%;
+margin-top: 12%;
+margin-left: 5%;
+text-align: center;
+
+}
+.order-btn {
+    color: #F5F5DC;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #9c6644;
+    font-weight: 500;
+    font-family: 'poppins';
+    transition: all 0.3s;
+    
+    
+}
+.order-btn:hover {
+    transform: translateY(-5px);
+    
+}
+.cart {
+    position: absolute;
+    right: 65px;
+    bottom: 15px;
+}
+.search{
+    position: absolute;
+    right: 19px;
+    bottom: 15px;
+}
+.second-page {
+    background-size: cover;
+    background-image: url(/images/joshua-bartell-6vvIBTvL90A-unsplash.jpg);
+    height: auto;
+    width: auto;
+    padding-top: 2px;
+    padding-bottom: 10%;
+    
+}
+
+.cappucciono {
+    height: auto;
+    width: auto;
+    min-width: 10px;
+    max-height: 500px;
+    min-height: 10px;
+    border-radius: 5px;
+    
+}
+.first-row .box-1{
+    flex: 1 1 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid transparent;
+    width: auto;
+    max-width: 300px;
+    height: auto;
+    max-height: 300px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 5px 10px 5px;
+    backdrop-filter: blur(4px);
+    min-height: 10px;
+    min-width: 10px;
+    transition: 0.5s;
+}
+.box-1:hover{
+    transform: translateY(-15px);
+    box-shadow: 1px 8px 15px;
+    
+}
+.second-page-title {
+text-shadow: 0px 2px 5px black;
+    color: #9c6644;
+    text-align: center;
+}
+.product-title {
+    
+    font-weight: bold;
+    margin: 5px 0 0 5px;
+}
+.product-price {
+    color: red;
+    margin: 5px 0 0 5px
+}
+.addtocart{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    transition: transform 0.3s ease;
+    background-color: #9c6644;
+    border-radius: 5px;
+    border: none;
+}
+.addtocart:hover {
+    transform: scale(0.9);
+}
+.second-page.show-animate .first-row {
+    transform: translateX(-100%);
+    
+}
+
+div .first-row{
+    transition: 1s;
+}
+  
+  .second-page .first-row {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;
+    gap: 50px;
+    border: 1px solid transparent;
+  }
+  .third-page {
+    margin: 0;
+    flex-direction: column;
+    background-color: #9c6644;
+    height: auto;
+    max-height: 1020px;
+    min-height: 253px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .third-page input {
+    margin-top:0;
+    background-color: #9c6644;
+    outline: none;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    width: auto;
+    min-width: 10px;
+  }
+  .third-page h3{
+    padding: 0%;
+  }
+.third-page button{
+    margin-top: 10px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-color: #9c6644;
+    padding: 10px;
+  }
+  .third-page input::placeholder{
+    color: black;
+  }
+  /*.intro-wrapper.show-animation2 .title{
+    transform: translateX(-100%);
+  }
+  div .title {
+    transition: 1s;
+  }*/
+  .third-page.contact-animation .container{
+    transform: translateX(-100%);
+  }
+.third-page .container{
+    transition: 1s;
+    
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
